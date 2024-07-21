@@ -68,6 +68,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       Obx(() => TextFormField(
+                        style: TextStyle(color: Colors.white),
                         controller: passController,
                         obscureText: loginController.validationComplete.value,
                         decoration: InputDecoration(
